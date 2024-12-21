@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grade-calculator{
+    width: 400px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.input-group label{
+    color: #333;
+    font-size: 20px;
+}
+.input-group input:focus{
+    outline: none;
+}
+.input-group input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+
+.submit-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.submit-button input{
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0,0.4);
+    background: transparent;
+    cursor: pointer;
+}
